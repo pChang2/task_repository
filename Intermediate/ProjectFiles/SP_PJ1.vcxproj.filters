@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SP_PJ1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SP_PJ1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SP_PJ1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\gitattributes.txt" />
+    <None Include="..\..\gitignore.txt" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SP_PJ1">
+      <UniqueIdentifier>{031ED126-BC2F-3D00-8A57-D3965BE47846}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SP_PJ1\SP_PJ1.Build.cs">
+      <Filter>Source\SP_PJ1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SP_PJ1\SP_PJ1.cpp">
+      <Filter>Source\SP_PJ1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SP_PJ1\SP_PJ1.h">
+      <Filter>Source\SP_PJ1</Filter>
+    </ClCompile>
+    <Filter Include="Source\SP_PJ1\Private">
+      <UniqueIdentifier>{4D340FD1-53FF-337C-ACB3-4C054D504C9B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SP_PJ1\Private\RotateActor.cpp">
+      <Filter>Source\SP_PJ1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SP_PJ1\Private\RotateChildActor.cpp">
+      <Filter>Source\SP_PJ1\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SP_PJ1\Private\ShuttleActor.cpp">
+      <Filter>Source\SP_PJ1\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SP_PJ1\Public">
+      <UniqueIdentifier>{3B8D32FE-A407-384D-957B-413D30B50A8A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SP_PJ1\Public\RotateActor.h">
+      <Filter>Source\SP_PJ1\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SP_PJ1\Public\RotateChildActor.h">
+      <Filter>Source\SP_PJ1\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SP_PJ1\Public\ShuttleActor.h">
+      <Filter>Source\SP_PJ1\Public</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
